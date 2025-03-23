@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warsztat Samochodowy MateCars</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Style dla całej strony */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #2e2e2e;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Główna szerokość */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Nagłówek */
+        header {
+            background-color: #ff8800;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #ffffff;
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        /* Sekcje */
+        main {
+            padding: 20px 0;
+        }
+
+        h2 {
+            color: #ffcc00;
+            font-size: 28px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        h3 {
+            color: #ffcc00;
+            font-size: 24px;
+            margin: 20px 0;
+        }
+
+        h4 {
+            color: #ffcc00;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        /* Styl dla kontaktu */
+        .contact-info {
+            font-size: 22px;
+            color: white;
+            font-weight: bold;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        /* Cennik */
+        .pricing ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .pricing ul li {
+            background-color: #444;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        /* Link do opinii */
+        .opinion-link {
+            color: #007bff;
+            text-decoration: underline;
+        }
+
+        /* Zdjęcie */
+        .about-image {
+            width: 50%;
+            max-height: 250px;
+            object-fit: contain;
+            margin: 20px auto;
+            display: block;
+        }
+
+        /* Stopka */
+        footer {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Warsztat Samochodowy MateCars</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="about">
+            <h2>O nas</h2>
+            <p>Firma MateCars zajmuje się obsługą mechaniczną samochodów. Zapraszamy na sezonową wymianę opon oraz sprzedaż opon nowych i używanych.</p>
+            <p>Oferujemy pełny serwis mechaniczny samochodów osobowych, wulkanizację, serwis klimatyzacji, diagnostykę komputerową, pranie tapicerki oraz myjnię.</p>
+            <p>Sprawdź nasze opinie na Google: <a href="https://maps.app.goo.gl/d2oB6y5p7aGnemEq7" target="_blank" class="opinion-link">Warsztat MateCars Opinie</a></p>
+            
+            <img src="mixm4r.png" alt="Warsztat MateCars" class="about-image">
+        </section>
+
+        <section class="pricing">
+            <h2>Cennik usług mechanicznych</h2>
+            <ul>
+                <li>Serwis olejowy: 60 zł</li>
+                <li>Wymiana kompletu filtrów: 100 zł</li>
+                <li>Wymiana klocków hamulcowych przód: 120 zł</li>
+                <li>Wymiana klocków hamulcowych tył: 120 zł</li>
+                <li>Wymiana łączników stabilizatora przód: 100 zł</li>
+                <li>Wymiana końcówki drążka kierowniczego: 100-120 zł</li>
+                <li>Wymiana sworznia wahacza: 100 zł</li>
+                <li>Wymiana amortyzatora (kolumna McPherson): 180 zł</li>
+                <li>Wymiana amortyzatora tył: 120 zł</li>
+                <li>Wymiana świec zapłonowych: 120 zł</li>
+                <li>Wymiana piasty koła: 150-250 zł</li>
+                <li>Wymiana chłodnicy: 320 zł</li>
+                <li>Zbieżność kół przód: 200 zł</li>
+            </ul>
+
+            <h3>Wymiana całych kół z wyważaniem</h3>
+            <ul>
+                <li>Felga: do 16" – 70 zł</li>
+                <li>Felga: od 17" – 80 zł</li>
+                <li>SUV, BUS, VAN – 90 zł</li>
+            </ul>
+
+            <h3>Wymiana opon z wyważaniem</h3>
+            <h4>Felga stalowa:</h4>
+            <ul>
+                <li>do 16" – 110 zł</li>
+                <li>od 17" – 120 zł</li>
+                <li>SUV, BUS, VAN – 170 zł</li>
+            </ul>
+
+            <h4>Felga aluminiowa:</h4>
+            <ul>
+                <li>do 16" – 120 zł</li>
+                <li>od 17" – 140 zł</li>
+                <li>SUV, BUS, VAN – 180 zł</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h3 style="color: #ffcc00; text-align: center;">Kontakt</h3>
+            <p class="contact-info">
+                Telefon: 577-315-818<br>
+                Adres: Młodnicka 52, 04-239 Warszawa
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 MateCars. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
